@@ -1,5 +1,5 @@
 # common_interview_question
-answer/solution/pseudo code for common Software Engineering/Data Science/Machine Learning questions.
+answer/solution/pseudo code for common Software Engineering/Data Science/Machine Learning question.
 
 Mainly in Python3. Exception is that in other language, there is an elegant way.
 
