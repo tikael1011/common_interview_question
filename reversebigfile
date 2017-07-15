@@ -1,0 +1,5 @@
+this is very common, you have a big file ,and it is very possible that it is too big to load into memory.how do you reverse it?
+
+Q1: is store temp file allowed? have to reverse it in space?
+
+Q2: will the file actually be a small size file?
