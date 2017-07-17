@@ -1,0 +1,13 @@
+Q: you want to select one dynamic set data structure, which stores a set of values, and also has a getNearest function.
+e.g. you have [1,10,20], when you call getNearest(11), it would return 10. If you will call addItem, removeItem, getNearest
+almost evenly, which data structure is better? (of cause the fastest one) and why?
+
+1. sorted array
+2. unsorted linked list
+3. (balanced) BST
+4*. a hashset from numbers to the nearest value to them in the set
+
+4: (my understanding) e.g given [1,17,19,20] and choose 19 as the number, the set will be [19,20,17,1] diff is [1,2,18].
+
+QtA: what if getNearest could return two answers? say getNearest(15)? Overall this should not affect your choice, but return
+the smaller one.
