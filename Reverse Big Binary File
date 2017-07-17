@@ -1,0 +1,10 @@
+this is very common, you have a big file ,and it is very possible that it is too big to load into memory.how do you reverse it?
+readsize(file)
+read(file, offset, block) 
+write(file, offset, block) are provided
+
+Q1: is using temp file allowed? have to reverse it in space or not?
+
+Q2: will the file actually be a small size file?
+
+edge case: the left part(in the middle) size is smaller than the block size
