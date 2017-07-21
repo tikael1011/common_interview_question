@@ -1,5 +1,0 @@
- what is Huffman code see wiki.
- for implementation:
- Q1 what is the input?
- Q2 (for python) is Libraries (heapq/queue) allowed?
- Q3 what is the runtime complexicy?  A:O(n)
