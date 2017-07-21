@@ -8,6 +8,7 @@ Answers  are based on my knowledge (so far), might not be 100% right and I will 
 P.S. be more specific Python 3.5.2
 P.S. If something appears in java, it will be java 8 instead of java 9.
 
+Prefix:
 [S] == Software Engineering
 [D] == Data Science
 [M] == Machine Learning
