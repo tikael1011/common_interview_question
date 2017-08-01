@@ -1,0 +1,10 @@
+left, right, inner, full,
+and under what circumstances may you use them? tell the diffence as much as you know (performance), more than just repeat the definition
+
+INNER JOIN gets all records that are common between both tables. (Intersection)
+
+LEFT JOIN gets all records from the LEFT linked table but if you have selected some columns from the RIGHT table, if there is no related records, these columns will contain NULL
+
+RIGHT JOIN is like the above but gets all records in the RIGHT table
+
+FULL JOIN gets all records from both tables and puts NULL in the columns where related records do not exist in the opposite table
