@@ -1,0 +1,5 @@
+This qustion is about difference, adv, disadv and so forth.
+First:a process may contain one or more threads, but a thread cannot contain a process.
+Processes have considerable overhead.Threads have almost no overhead.
+Differet processes run in separate memory spcaes while threads share them.
+Processes do not share signal handing, while thread do (while-signalAll pair is more common than if-signal pair.)
