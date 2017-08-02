@@ -1,0 +1,43 @@
+This is from leetcode max subarray, we return the subarray instead of the 'max'
+
+code for the original problem:
+
+class Solution:
+    # @param A, a list of integers
+    # @return an integer
+    def maxSubArray(self, A):
+        if not A:
+            return 0
+
+        curSum = maxSum = A[0]
+        for num in A[1:]:
+            curSum = max(num, curSum + num)
+            maxSum = max(maxSum, curSum)
+
+        return maxSum
+
+Q: how do we deal with 'zero', conside the following case [1,-1,2], shoud we return [1,-1,2] or [2] only?
+A:[2]
+Q: what about [2,-1,1]? return [2] or [2,-1,1]
+A:[2]
+
+class Solution:
+    # @param A, a list of int
+    # @return the max subarray
+    def maxSubarray(A):
+        if not A:
+            return 0
+        curS = maxS = 0
+        maxst = start = end = 0
+        for i,num in enumerate(A):
+            if((curS + num) <= 0):
+                start = i + 1
+                curS = 0
+            else:
+                curS += num
+            if(curS > maxS):
+                maxS = curS
+                maxst = start
+                end = i + 1
+        return A[maxst:end]
+    
