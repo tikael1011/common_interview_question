@@ -5,4 +5,5 @@ Neither.
 We should use forward chaining strategy instead. B/C pattern in t1 may not exist in t2.
 
 ps: K-fold, generally we use 10, but there is nothing wrong to use 5,6,7,8,9...
-LOOCV: Leave-one-out cross-validation, special case of LpOCV where p == 1, {\displaystyle C_{1}^{n}=n} {\displaystyle C_{1}^{n}=n}
+LOOCV: Leave-one-out cross-validation, special case of LpOCV where p == 1, compute n times, n is the observations in orginal
+data.
