@@ -1,0 +1,36 @@
+ what are they?
+ 
+ difference?
+ 
+ Why do we need them? How to compute them? More about them.
+ 
+ #####
+ 
+ PCA == Principal component analysis, ICA == independent component analysis
+ 
+ PCA is for data compression/visualization, lower from N dimension to K dimension
+ 
+ PCA wants to maintaince like 99% variance.Say data has N dimensions and M examples.
+ 
+ Before PCA, feature scaling/ mean normalization, then feed covariance matrix to SVD, SVD[m] -> [U,S,V] -> 
+ U is a n*n matrix -> take the first K column of U -> U[k], U[k] is n * k, x is n * 1, 
+ z(i) = U[k]^T (transpose) * x(i), z(i) -> k * 1, dataaaa, lower the dimension successfully.Also, 
+ we can use EIG instead of SVD.
+ 
+ How to choose k?
+ 1. We can pre-selecet a K.
+ 2.            k
+               ∑(Sii)
+               i = 1
+     1 -      -------    <= 0.01      where S is a n * n matrix from the SVD,
+               n
+               ∑(Sii)
+               i = 1
+               
+               
+     or try different k, compute U[k] or someone prefers U(reduce), just notation. x(p) = U[k] * z,
+     average squared projection error = 1/m ∑ (x(i) - x(pi))^2 (from 1 to m)
+     total variation  = 1/m ∑ (x(i))^2 (from 1 to m),
+     we want ASPE/TV <= 0.01 (or other target)
+     
+ 
