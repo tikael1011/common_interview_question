@@ -20,4 +20,6 @@ Random forest, set tree size large.
 Try to simplify model, e.g for NN, reduce neuros in hidden layer, may cause underfitting though.
 
 Use PCA, (k = 2 or 3) to visualize data. (I never mean use PCA to solve overfitting, just
-visualize, and honestly we do not need PCA to do this, we can simply calculate AVG ∑ (x)^2). Does the dataset has high variance? y -> go bagging, n-> if you are using GD or SGD, stop earlier (less iteration).
+visualize, and honestly we do not need PCA to do this, we can simply calculate AVG ∑ (x)^2).
+Does the dataset has high variance? y -> go bagging, n-> if you are using GD or SGD, stop
+earlier (less iteration).
