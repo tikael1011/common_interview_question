@@ -1,0 +1,6 @@
+what will you do when (you realize) overfitting?
+
+I think I can seperate this question into two parts.
+
+First part is about method/tech WILL solve/improve this problem.
+Second part is about method/tech MIGHT solve/improve this problem, but not necessarily so and may cause other problems.
