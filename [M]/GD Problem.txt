@@ -1,0 +1,6 @@
+What are the reasons for gradient descent to converge slow or not converge in various machine learning algorithms?
+how will you deal with it?
+
+learning rate too large or small, or the cost function not good, like poorly conditioned convex problems (pathological function)
+
+Change µ, or apply preconditioning (change function geometry)
