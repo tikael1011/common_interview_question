@@ -1,0 +1,5 @@
+ What is your favourite machine learning algorithm and why?
+ 
+ I guess this is kinda like an all-or-nothing question and there is a by-pass--name an uncommon one, and of course 
+ the traditional challeging is how well you understand an algo/method and your reasoning. Do not trouble trouble/shoot yourself
+ in the foot/sow the seeds of regret/be your own worst enemy.
