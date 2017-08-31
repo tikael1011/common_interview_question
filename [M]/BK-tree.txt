@@ -1,0 +1,3 @@
+fast string matching/correction.
+
+http://dl.acm.org/citation.cfm?id=362003.362025
