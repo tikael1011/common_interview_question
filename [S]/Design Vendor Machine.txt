@@ -1,0 +1,28 @@
+This kind of question MAY have the following pattern to answer.
+
+Problem description:
+
+In this case it is to design a vending machine.
+
+Clarify:
+Restrictions? How to deal with exceptions? System capacity?
+In this cais is to just design a general vending machine we are familiar with.
+
+Use case list:
+What are all the possible operation? and working flow? I guess this is the most important part?
+In this case we have
+select item and get price
+accept bills/coins
+dispense items purchased and return change
+refund when cancelling the request
+
+Possible exceptions:
+I guess this is the second most important part.
+Sold out
+Not fully paid
+Not enough changes
+
+Design pattern:
+Any specific one?
+
+Draw UML diagrams:
