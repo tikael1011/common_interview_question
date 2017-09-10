@@ -5,7 +5,7 @@ How do I come to this question?
 [reading2](http://www.unicode.org/notes/tn23/)
 
 Q: How does java String.lengh() work?
-```bash
+```Java
     final String string = "Hello World";
 
     // Check length
@@ -32,7 +32,7 @@ Q: How does java String.lengh() work?
 ```
 
 in java do not forget
-```bash
+```Java
 throws UnsupportedEncodingException
 ```
 or surround with try-catch
