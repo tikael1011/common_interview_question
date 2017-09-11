@@ -4,9 +4,10 @@ Q3 if Python OrderedDict is NOT allowed, can how you implement this ? with O(1) 
 
 from :https://gist.github.com/reterVision/5018901
 
+```Python
 from datetime import datetime
 
-```Python
+
 class LRUCacheItem(object):
     """Data structure of items stored in cache"""
     def __init__(self, key, item):
