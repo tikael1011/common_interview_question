@@ -6,7 +6,7 @@ from :https://gist.github.com/reterVision/5018901
 
 from datetime import datetime
 
-
+```Python
 class LRUCacheItem(object):
     """Data structure of items stored in cache"""
     def __init__(self, key, item):
@@ -58,3 +58,4 @@ class LRUCache(object):
                 if time_delta.seconds > self.delta:
                     yield item
         map(lambda x: self.removeItem(x), _outdated_items())
+```
