@@ -1,9 +1,14 @@
 Q1 Are standard libraries allowed?
+
 Q2 what are the input ? (how the Least recent use triggered?)
+
 Q3 if Python OrderedDict is NOT allowed, can how you implement this ? with O(1) for all operation?
 
-from :https://gist.github.com/reterVision/5018901
+Q4 what is the size of cache? fixed or dynamic?
 
+<details> 
+  <summary>One answer from :https://gist.github.com/reterVision/5018901 </summary>
+ 
 ```Python
 from datetime import datetime
 
@@ -60,3 +65,5 @@ class LRUCache(object):
                     yield item
         map(lambda x: self.removeItem(x), _outdated_items())
 ```
+</details> 
+
